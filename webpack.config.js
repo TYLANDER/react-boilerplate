@@ -23,6 +23,13 @@ module.exports = {
   resolve: {
     root: __dirname,
     alias: {
+      Main: 'app/components/Main.jsx',
+      Nav: 'app/components/Nav.jsx',
+      Pylon: 'app/components/Pylon.jsx',
+      PylonHeader: 'app/components/PylonHeader.jsx',
+      Rant: 'app/components/Rant.jsx',
+      About: 'app/components/About.jsx',
+      Contact: 'app/components/Contact.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']
@@ -43,6 +50,6 @@ module.exports = {
     includePaths: [
       path.resolve(__dirname, './node_modules/foundation-sites/scss')
     ]
-  }
+  },
   devtool: 'cheap-module-eval-source-map'
 };
