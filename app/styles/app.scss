@@ -4,7 +4,9 @@
 // foundation
 @import "base/foundation-settings";
 @import "foundation";
-@include foundation-everything
+@include foundation-everything(true);
+@include foundation-flex-grid;
+@include foundation-flex-classes;
 
 // Components
 @import "components/navigation";
@@ -48,5 +50,5 @@ li {
   padding-top: 2em;
   height: $footer-height;
   background-color: white;
-  font-size: 10px;
+  font-size: $small-font-size;
 }

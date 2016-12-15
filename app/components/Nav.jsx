@@ -5,7 +5,7 @@ var Nav = (props) => {
   return (
     <div>
    <div className="top-bar" id="top-bar">
-      <div className="top-bar-left">
+      <div className="top-bar-title">
         <ul className="menu">
           <li>
             <IndexLink to="/" activeClassName="active" id="pylon-text">PYLON</IndexLink>

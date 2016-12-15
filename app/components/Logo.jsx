@@ -4,7 +4,7 @@ import ReactSVG from 'react-svg';
 
 var Logo = (props) => {
   return(
-      <div class="media-object align-self-centered columns-11">
+      <div class="media-object align-self-centered small-10 columns">
         <svg id="logo" viewBox="0 0 903 486" version="1.1">
             <title>Hero_Asset</title>
             <desc>Created with Sketch.</desc>
