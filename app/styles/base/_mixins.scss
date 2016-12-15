@@ -1,0 +1,12 @@
+@mixin google-font($font) {
+  $font: unquote($font);
+  @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab');
+}
+
+@mixin large-text {
+  font: {
+  font-family: 'Josefin Sans', sans-serif;
+  size: 22px;
+  weight: bold;
+  }
+}

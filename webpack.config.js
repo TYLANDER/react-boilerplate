@@ -30,6 +30,7 @@ module.exports = {
       Rant: 'app/components/Rant.jsx',
       About: 'app/components/About.jsx',
       Contact: 'app/components/Contact.jsx',
+      Logo: 'app/components/Logo.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']

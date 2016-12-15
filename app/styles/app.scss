@@ -1,8 +1,52 @@
 @import "base/variables";
+@import "base/mixins";
 
 // foundation
 @import "base/foundation-settings";
 @import "foundation";
-@include foundation-everything;
-  
-//Components
+@include foundation-everything
+
+// Components
+@import "components/navigation";
+@import "components/rant";
+@import "components/pylon";
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab');
+@include google-font("Josefin+Sans");
+@include google-font("Josefin+Slab");
+
+
+// HTML Tags
+body {
+  font-family: $text-font;
+  color: $text-color;
+}
+
+h1, h2, h3, h4 {
+  font-family: $headline-font;
+}
+
+h2 {
+  @include large-text;
+}
+
+p {
+  font-family: $text-font;
+}
+
+a {
+  color: $link-color;
+}
+
+li {
+  display: inline;
+}
+
+
+#footer {
+  padding-top: 2em;
+  height: $footer-height;
+  background-color: white;
+  font-size: 10px;
+}

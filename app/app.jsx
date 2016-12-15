@@ -5,6 +5,7 @@ var Main = require('Main');
 var Pylon = require('Pylon');
 var About = require('About');
 var Contact = require('Contact');
+var Logo = require('Logo');
 
 
 // Load foundation
@@ -17,9 +18,9 @@ require('style!css!sass!applicationStyles')
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
+      <IndexRoute component={Pylon}/>
       <Route path="about" component={About}/>
       <Route path="contact" component={Contact}/>
-      <IndexRoute component={Pylon}/>
   </Route>
 </Router>,
   document.getElementById('app')

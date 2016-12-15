@@ -1,0 +1,42 @@
+.top-bar {
+  background-color: white;
+  padding-right: 6em;
+  padding-left: 6em;
+  padding-top: 1.5em;
+  align-items: bottom;
+  vertical-align: bottom;
+}
+
+#top-bar {
+  vertical-align: bottom;
+  height: 100px;
+  background-color: white;
+}
+
+#menu-text {
+    font-family: $headline-font;
+    font-weight: bold;
+    color: $text-color;
+    vertical-align: bottom;
+    background-color: white;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+
+		&:hover {
+  			color: transparentize($text-color, .5);
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+    		}
+      }
+
+
+
+#pylon-text {
+    font-family: $headline-font;
+    font-weight: bold;
+    font-size: 22px;
+    color: $text-color;
+    vertical-align: bottom;
+    background-color: white;
+}
