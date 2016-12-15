@@ -5,18 +5,16 @@ var Pylon = require('Pylon');
 var Main = (props) => {
   return (
     <div>
-      <Nav/>
-      <div className="row">
-        <div className="small-12 columns">
-            {props.children}
-            <div class="row">
-              <div class="large-1 columns"></div>
-              <div class="large-11 columns">
-                <footer id="footer">
-                  <p>Copyright 2016 Pylon, LLC. All rights reserved.</p>
-                </footer>
-              </div>
-            </div>
+      <div>
+        <Nav/>
+          {props.children}
+      </div>
+      <div className="row align-center">
+        <div className="column small-1"></div>
+        <div className="column">
+          <div id="hline">
+            <p id="footer">Copyright 2016 Pylon, LLC. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </div>

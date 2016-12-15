@@ -45,10 +45,20 @@ li {
   display: inline;
 }
 
+#hline {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 2em 0;
+  padding: 0;
+}
 
 #footer {
-  padding-top: 2em;
+  padding-top: .5em;
+  border-top: 2px;
   height: $footer-height;
   background-color: white;
   font-size: $small-font-size;
+  transparentize: ($text-color, .4);
 }

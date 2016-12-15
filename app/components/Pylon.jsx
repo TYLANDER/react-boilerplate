@@ -6,7 +6,7 @@ var Logo = require('Logo');
 var Pylon = (props) => {
   return(
     <div className="row align-center">
-      <div className="small-8">
+      <div className="small-10 medium-9">
         <Logo/>
         <p id="definition">One structural unit of intrinsic value.</p>
       </div>

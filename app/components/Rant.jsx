@@ -4,7 +4,7 @@ var Rant = (props) => {
   return(
     <div className="rant">
       <div className="row">
-          <div className="columns medium-10 large-7 small-centered">
+          <div className="small-centered">
           <h3 id="headline">Pylon: true utility to the end user.</h3>
           <ul>
             <li>User Experience Design</li>
