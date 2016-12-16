@@ -10,3 +10,7 @@
   weight: bold;
   }
 }
+
+@mixin card-container {
+  background-color: $grey;
+}
