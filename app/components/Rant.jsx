@@ -2,8 +2,8 @@ var React = require('react');
 
 var Rant = (props) => {
   return(
-      <div className="row align-center">
-          <div className="column">
+      <div className="row">
+          <div className="small-12 small-centered medium-7 columns">
           <p>Pylon: n. one abstract unit of intrinsic value.</p>
           <p>Pylon is modular.</p>
           <p>Pylon is a problem solving company dedicated to constructing additional pylons.</p>

@@ -3,7 +3,7 @@ var {Link, IndexLink} = require('react-router');
 
 var Nav = (props) => {
   return (
-    <div id="top-bar">
+    <nav id="top-bar">
       <div className="row align-justify" >
         <div className="column small-6">
           <ul className="menu align-left">
@@ -23,7 +23,7 @@ var Nav = (props) => {
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
     );
   }
 

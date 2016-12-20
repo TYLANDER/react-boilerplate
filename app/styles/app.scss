@@ -9,10 +9,13 @@
 @include foundation-flex-classes;
 
 // Components
+//@import "components/services";
 @import "components/about";
 @import "components/navigation";
 @import "components/rant";
+@import "components/contact";
 @import "components/pylon";
+@import "components/services";
 
 // fonts
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab');
@@ -43,7 +46,6 @@ a {
 }
 
 li {
-  display: inline;
 }
 
 #hline {
