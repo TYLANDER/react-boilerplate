@@ -9,11 +9,10 @@ var Main = (props) => {
         <Nav/>
           {props.children}
       </div>
-      <div className="row align-center">
-        <div className="column small-1"></div>
+      <div className="row">
         <div className="column">
           <div id="hline">
-            <p id="footer">Copyright 2016 Pylon, LLC. All rights reserved.</p>
+            <p id="footer">©Pylon, LLC 2016. All rights reserved.</p>
           </div>
         </div>
       </div>

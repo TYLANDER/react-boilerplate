@@ -1,9 +1,24 @@
-#contact {
-  height: 600px;
-  width: auto;
-  padding: 6em;
 
-  a {
-    color: red;
+#contact-row {
+  padding-top:50px;
+  padding-bottom:100px;
+  display:block;
+  background-color: red;
+  justify-content: center;
+  .row {
+    
   }
 }
+
+
+/* CONTACT */
+#contact{line-height:1.4;font-size: 1em;}
+#contact-row{padding-top:50px;padding-bottom:100px;}
+#contact hr{width:100%;height:1px;margin:0;padding:0;border:none;background:#e2e2e2;}
+#contact h2{font-size:0.75em;font-weight:500;letter-spacing:1px;padding:0;margin:0 0 35px 0;text-transform:uppercase;}
+#contact h3{font-size:1em;line-height:inherit;font-weight:400;padding:0;margin:0;text-transform:none;}
+#contact h3 object{height:0.8125em;}
+#contact p{line-height:inherit;}
+#contact .imprintlink{color:#a1a1a1;}
+#contact .imprintlink:hover{color:#111111;}
+#contact a{color:red;}

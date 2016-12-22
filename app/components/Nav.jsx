@@ -12,7 +12,7 @@ var Nav = (props) => {
             </li>
           </ul>
         </div>
-        <div className="column small-4">
+        <div className="column small-6">
           <ul className="menu align-right" id="menu-right">
               <li>
                 <Link to="/about" activeClassName="active" id="menu-text">About</Link>

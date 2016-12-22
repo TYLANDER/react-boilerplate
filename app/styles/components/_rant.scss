@@ -1,0 +1,7 @@
+#rant {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-color: $red;
+  transparentize: ($text-color, .4);
+  margin-bottom: 3em;
+}
