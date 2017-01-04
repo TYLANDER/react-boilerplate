@@ -18,6 +18,7 @@ var About = (props) => {
         <div className="column column-block">
           <div className="panel">
             <h3>User Experience Design</h3>
+            <h3>Design Sprints</h3>
             <h3>Design Strategy</h3>
             <h3>Information Architecture</h3>
           </div>
